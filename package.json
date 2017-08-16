@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "request": "^2.81.0"
-  }
+  },
+  "name": "ablb-messagem8",
+  "description": "This is a node module used in abalobi projects.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
