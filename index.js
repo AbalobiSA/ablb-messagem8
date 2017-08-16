@@ -60,8 +60,10 @@ function sendMessage(secrets, message_number, message_body) {
 
         requester(options).then(response => {
             console.log(response);
+            resolve(response);
         }).catch(ex => {
             console.log("Error!", ex);
+            reject(ex);
         })
     });
 }
