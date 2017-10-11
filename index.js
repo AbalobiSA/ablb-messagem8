@@ -6,8 +6,8 @@
  */
 
 let requester = require("request-promise");
-let parseNumber = require('tools').parseNumber;
-let deprecated = require('deprecated');
+let parseNumber = require('./tools').parseNumber;
+let deprecated = require('./deprecated');
 
 function sendSMS(credentials, number, body) {
     // Messagegate sends the entire object through as a url param.

@@ -1,4 +1,4 @@
-let parseNumber = require('tools').parseNumber;
+let parseNumber = require('./tools').parseNumber;
 let requester = require('request-promise');
 
 module.exports = {
